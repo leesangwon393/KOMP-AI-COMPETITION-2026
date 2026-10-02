@@ -1,0 +1,12 @@
+Data/
+runs/
+weights/
+predictions/
+comparisons/
+.venv/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+*.zip
+.DS_Store
