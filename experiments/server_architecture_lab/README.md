@@ -1,6 +1,6 @@
 # R022-aligned architecture experiment harness
 
-This directory contains an executable training harness aligned to the documented R022 recipe and configs for a baseline plus proposed architecture comparisons. The B config is a fresh implementation of the written recipe; it is not a bitwise reproduction of the remote R022 checkpoint. C01–C13 and their controls are proposals; they have not been run as part of this package. C13 is a controlled RRCU ablation: it replaces only the deepest decoder ConvBlock with a two-step, shared-weight recurrent residual unit and keeps the remaining R022 architecture and training recipe fixed.
+This directory contains an executable training harness aligned to the documented R022 recipe and configs for a baseline plus architecture comparisons. The B config is a fresh implementation of the written recipe; it is not a bitwise reproduction of the remote R022 checkpoint. C01–C12 remain proposals. C13's local MPS run has started, with B queued after it; final results are pending. C13 replaces the deepest decoder ConvBlock with a two-step, shared-weight recurrent residual unit. Its initial hidden state is zero; the unchanged baseline tensors, including scSE, and model-construction RNG are preserved.
 
 ## Data and environment
 
@@ -19,6 +19,8 @@ python run.py train --config configs/C02.json --data Data --output runs/C02_seed
 python run.py train --config configs/C13.json --data Data --output runs/C13_rrcu_seed42 --device cuda
 ```
 
-Run B first as the code-matched baseline, then C13 to isolate the RRCU change. Compare C01/C02 before deciding whether to run C03. Training starts only when a `train` command is explicitly invoked.
+Compare B and C13 in the same environment and code version. Compare C01/C02 before deciding whether to run C03. Training starts only when a `train` or explicit launcher command is invoked.
+
+`preflight_rrcu.py` checks shared initialization and a real batch-4 optimizer step. `launch_rrcu.py start` runs C13 followed by B from a frozen source snapshot, with logs and PID files; `launch_rrcu.py status --output RUN_DIRECTORY` reports progress. See [the experiment record](../../docs/RRCU_EXPERIMENT_KO.md).
 
 R022 reference metrics and actual completed-run summaries are in the repository's [experiment history](../../docs/EXPERIMENT_RESULTS_KO.md). The package config/code was assembled after those runs and does not contain their checkpoints.

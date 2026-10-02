@@ -45,7 +45,7 @@ class SharedWeightRRCU(nn.Module):
 
     def forward(self, x):
         residual = self.project(x)
-        state = residual
+        state = torch.zeros_like(residual)
         for _ in range(self.iterations):
             state = self.activation(self.recurrent_norm(self.recurrent_conv(residual + state)))
         return self.attention(residual + state)
@@ -188,13 +188,21 @@ class WeightedSkip(nn.Module):
 
 
 class UNetDecoder(nn.Module):
-    def __init__(self, channels, upsampling='dysample', dilation='none', weighted=False, rrcu_deepest=False):
+    def __init__(self, channels, upsampling='dysample', dilation='none', weighted=False,
+                 rrcu_deepest=False, rrcu_seed=1747):
         super().__init__()
         incoming, widths = [channels[-1], 256, 128, 64], [256, 128, 64, 64]
         skips = list(reversed(channels[:-1]))
         self.blocks = nn.ModuleList([ConvBlock(cin + skip, cout) for cin, skip, cout in zip(incoming, skips, widths)])
         if rrcu_deepest:
-            self.blocks[0] = SharedWeightRRCU(incoming[0] + skips[0], widths[0], iterations=2)
+            original_attention = self.blocks[0].attention
+            # Keep every other decoder weight and the subsequent sampling RNG
+            # identical to B. Seed only the CPU generator used for allocation.
+            with torch.random.fork_rng(devices=[]):
+                torch.random.default_generator.manual_seed(rrcu_seed)
+                replacement = SharedWeightRRCU(incoming[0] + skips[0], widths[0], iterations=2)
+            replacement.attention = original_attention
+            self.blocks[0] = replacement
         self.weighted = weighted
         self.fusions = nn.ModuleDict()
         if weighted:
@@ -345,7 +353,8 @@ class SegmentationModel(nn.Module):
         options = {'upsampling': architecture['upsampling']}
         if architecture['decoder'] in ('unet', 'unet_rrcu'):
             options.update(dilation=architecture['dilation'], weighted=architecture['weighted_skip'],
-                           rrcu_deepest=architecture['decoder'] == 'unet_rrcu')
+                           rrcu_deepest=architecture['decoder'] == 'unet_rrcu',
+                           rrcu_seed=config['train']['seed'] + 1705)
         self.decoder = decoder(channels, **options)
         self.weighted_skip = architecture['weighted_skip']
         # Allocate each add-on with an independent RNG; the 2x2 comparison shares

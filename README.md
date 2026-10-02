@@ -39,7 +39,7 @@ Training uses the central 224×224 target from each 448×448 context crop. Infer
 ## Code map
 
 - Root Python files and `mimu/`: local training, evaluation, and historical experiment implementations.
-- `experiments/server_architecture_lab/`: R022-aligned server training code and B/C01–C13 architecture configurations. C01–C13 are **proposals awaiting experiments**, not completed results. C13 replaces only the deepest decoder block with a shared-weight two-step RRCU.
+- `experiments/server_architecture_lab/`: R022-aligned server training code and B/C01–C13 architecture configurations. C01–C12 remain proposals. C13's 150-epoch local MPS run has started, with a same-code B baseline queued afterward; final results are pending. See [RRCU experiment](docs/RRCU_EXPERIMENT_KO.md).
 - `docs/`: experiment results, setup/reproducibility notes, and architecture references.
 
 ## Quick start
