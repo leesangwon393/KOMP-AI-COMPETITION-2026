@@ -17,6 +17,7 @@ EXPERIMENTS = [
     ('C10', 'Bottleneck four-direction Mamba (derived VSS-like) + HF', {'mamba_blocks': 1, 'hf': True}),
     ('C11', 'MicroNet v1.0 ResNet101 initialization + HF', {'initialization': 'micronet', 'hf': True}),
     ('C12', 'Multistage train-only SSL initialization + HF + cross', {'initialization': 'ssl', 'hf': True, 'cross': 'attention'}),
+    ('C13', 'R022 + shared-weight two-step RRCU in deepest decoder block', {'decoder': 'unet_rrcu'}),
     ('CTRL_cross_concat', 'Layer3/layer4 concat instead of attention', {'cross': 'concat'}),
     ('CTRL_dilation_fixed', 'Fixed equal dilation branch weights', {'dilation': 'fixed'}),
     ('CTRL_weighted_only', 'Weighted skip without HF', {'weighted_skip': True}),

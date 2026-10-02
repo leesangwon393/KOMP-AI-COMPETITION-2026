@@ -33,7 +33,7 @@ def build(output):
             continue
         ast.parse(source.read_text(encoding='utf-8'), filename=str(source))
     configs = {path.stem: load_config(path) for path in sorted((ROOT / 'configs').glob('*.json'))}
-    required = {'B', 'C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C09', 'C10', 'C11', 'C12'}
+    required = {'B', 'C01', 'C02', 'C03', 'C04', 'C05', 'C06', 'C07', 'C08', 'C09', 'C10', 'C11', 'C12', 'C13'}
     if not required <= configs.keys():
         raise ValueError(f'Missing configs: {sorted(required - configs.keys())}')
     baseline = configs['B']

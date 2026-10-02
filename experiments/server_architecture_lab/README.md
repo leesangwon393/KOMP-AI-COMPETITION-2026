@@ -1,6 +1,6 @@
 # R022-aligned architecture experiment harness
 
-This directory contains an executable training harness aligned to the documented R022 recipe and configs for a baseline plus proposed architecture comparisons. The B config is a fresh implementation of the written recipe; it is not a bitwise reproduction of the remote R022 checkpoint. C01–C12 and their controls are proposals; they have not been run as part of this package.
+This directory contains an executable training harness aligned to the documented R022 recipe and configs for a baseline plus proposed architecture comparisons. The B config is a fresh implementation of the written recipe; it is not a bitwise reproduction of the remote R022 checkpoint. C01–C13 and their controls are proposals; they have not been run as part of this package. C13 is a controlled RRCU ablation: it replaces only the deepest decoder ConvBlock with a two-step, shared-weight recurrent residual unit and keeps the remaining R022 architecture and training recipe fixed.
 
 ## Data and environment
 
@@ -16,8 +16,9 @@ python run.py check --config configs/B.json --device cuda --size 448 --backward 
 python run.py train --config configs/B.json --data Data --output runs/B_reference --device cuda
 python run.py train --config configs/C01.json --data Data --output runs/C01_seed42 --device cuda
 python run.py train --config configs/C02.json --data Data --output runs/C02_seed42 --device cuda
+python run.py train --config configs/C13.json --data Data --output runs/C13_rrcu_seed42 --device cuda
 ```
 
-Run B first as the code-matched baseline. Compare C01/C02 before deciding whether to run C03. Training starts only when a `train` command is explicitly invoked.
+Run B first as the code-matched baseline, then C13 to isolate the RRCU change. Compare C01/C02 before deciding whether to run C03. Training starts only when a `train` command is explicitly invoked.
 
 R022 reference metrics and actual completed-run summaries are in the repository's [experiment history](../../docs/EXPERIMENT_RESULTS_KO.md). The package config/code was assembled after those runs and does not contain their checkpoints.

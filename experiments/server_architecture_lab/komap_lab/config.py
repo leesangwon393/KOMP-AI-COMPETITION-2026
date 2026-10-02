@@ -28,7 +28,7 @@ def validate(config):
         if set(config[key]) != set(DEFAULT[key]):
             raise ValueError(f'Unexpected/missing fields in config.{key}')
     m, t, s = config['model'], config['train'], config['ssl']
-    for key, options in {'backbone': ('resnet34', 'resnet101'), 'decoder': ('unet', 'unetpp', 'upernet'),
+    for key, options in {'backbone': ('resnet34', 'resnet101'), 'decoder': ('unet', 'unet_rrcu', 'unetpp', 'upernet'),
                          'upsampling': ('dysample', 'bilinear'), 'cross': ('none', 'attention', 'concat'),
                          'dilation': ('none', 'adaptive', 'fixed'), 'hybrid': ('none', 'gated', 'concat'),
                          'initialization': ('imagenet', 'none', 'micronet', 'ssl')}.items():

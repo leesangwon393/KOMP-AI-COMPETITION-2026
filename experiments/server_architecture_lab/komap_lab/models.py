@@ -32,6 +32,25 @@ class ConvBlock(nn.Module):
         return self.attention(self.block(x))
 
 
+class SharedWeightRRCU(nn.Module):
+    """Two recurrent steps with shared Conv-BN weights and an outer residual."""
+    def __init__(self, cin, cout, iterations=2):
+        super().__init__()
+        self.project = nn.Sequential(nn.Conv2d(cin, cout, 1, bias=False), nn.BatchNorm2d(cout), nn.ReLU())
+        self.recurrent_conv = nn.Conv2d(cout, cout, 3, padding=1, bias=False)
+        self.recurrent_norm = nn.BatchNorm2d(cout)
+        self.iterations = iterations
+        self.activation = nn.ReLU()
+        self.attention = SCSE(cout)
+
+    def forward(self, x):
+        residual = self.project(x)
+        state = residual
+        for _ in range(self.iterations):
+            state = self.activation(self.recurrent_norm(self.recurrent_conv(residual + state)))
+        return self.attention(residual + state)
+
+
 def sample_pixels(x, coords):
     # Explicit border-padded bilinear gathering, also supports MPS backward.
     n, c, h, w = x.shape
@@ -169,11 +188,13 @@ class WeightedSkip(nn.Module):
 
 
 class UNetDecoder(nn.Module):
-    def __init__(self, channels, upsampling='dysample', dilation='none', weighted=False):
+    def __init__(self, channels, upsampling='dysample', dilation='none', weighted=False, rrcu_deepest=False):
         super().__init__()
         incoming, widths = [channels[-1], 256, 128, 64], [256, 128, 64, 64]
         skips = list(reversed(channels[:-1]))
         self.blocks = nn.ModuleList([ConvBlock(cin + skip, cout) for cin, skip, cout in zip(incoming, skips, widths)])
+        if rrcu_deepest:
+            self.blocks[0] = SharedWeightRRCU(incoming[0] + skips[0], widths[0], iterations=2)
         self.weighted = weighted
         self.fusions = nn.ModuleDict()
         if weighted:
@@ -319,10 +340,12 @@ class SegmentationModel(nn.Module):
         self.target_size = config['train']['target']
         self.encoder = GrayEncoder(architecture['backbone'], pretrained, **config['normalization'])
         channels = self.encoder.channels
-        decoder = {'unet': UNetDecoder, 'upernet': UPerDecoder, 'unetpp': NestedDecoder}[architecture['decoder']]
+        decoder_kind = 'unet' if architecture['decoder'] == 'unet_rrcu' else architecture['decoder']
+        decoder = {'unet': UNetDecoder, 'upernet': UPerDecoder, 'unetpp': NestedDecoder}[decoder_kind]
         options = {'upsampling': architecture['upsampling']}
-        if architecture['decoder'] == 'unet':
-            options.update(dilation=architecture['dilation'], weighted=architecture['weighted_skip'])
+        if architecture['decoder'] in ('unet', 'unet_rrcu'):
+            options.update(dilation=architecture['dilation'], weighted=architecture['weighted_skip'],
+                           rrcu_deepest=architecture['decoder'] == 'unet_rrcu')
         self.decoder = decoder(channels, **options)
         self.weighted_skip = architecture['weighted_skip']
         # Allocate each add-on with an independent RNG; the 2x2 comparison shares

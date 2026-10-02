@@ -46,4 +46,5 @@ R012–R044는 완료 32개와 중단 R015 1개를 포함한다. ZIP-REF는 앞�
 - 유지 기준 recipe: **R022**, D4 absent=1 0.7989694265 / strict 0.7864694265.
 - 관측 최고 checkpoint: **R031**, 0.7993317515 / 0.7868317515. R022보다 +0.0362 pp였으나 seed 43 대조에서는 R031−R022가 −0.2712 pp이고 두-seed 평균도 −0.1175 pp다. R031은 관측 최고로 보존하되 일반 우위로 채택하지 않는다.
 - R022의 전체 설정 및 R012–R044 변경 해설은 원 제공 report를 참조한다. R045는 source report 작성 때 3/150 epoch 상태였고 완료 점수는 없다. 그 이후 상태는 여기서 재조회하지 않았다.
+- RRCU decoder ablation C13 was added after the reported completed runs and has not been trained; no C13 score is available.
 - 수치는 Valid를 반복 사용한 실험 기록이므로 독립 test 또는 held-out 일반화 성능으로 표현하지 않는다.
