@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-04",
+  "source": "Local original Data images and masks; no prediction or Test labels used",
+  "class_names": [
+    "Primary Si",
+    "Al3Ni",
+    "Eutectic Si",
+    "Al"
+  ],
+  "palette_rgb": [
+    [
+      76,
+      178,
+      76
+    ],
+    [
+      25,
+      76,
+      153
+    ],
+    [
+      204,
+      204,
+      204
+    ],
+    [
+      153,
+      127,
+      76
+    ]
+  ],
+  "splits": {
+    "train": {
+      "image_count": 70,
+      "modes": [
+        "RGBA"
+      ],
+      "sizes_width_height": [
+        [
+          675,
+          480
+        ],
+        [
+          1230,
+          875
+        ],
+        [
+          1278,
+          909
+        ],
+        [
+          1440,
+          1024
+        ]
+      ],
+      "images_with_non_grayscale_rgb": 0,
+      "non_grayscale_pixel_percent": 0.0,
+      "mask_count": 70,
+      "class_pixel_counts": [
+        6428654,
+        17942376,
+        4757170,
+        39056688
+      ],
+      "pooled_pixel_percent": [
+        9.428268034993327,
+        26.314300024955678,
+        6.976868540137516,
+        57.28056339991348
+      ],
+      "image_macro_pixel_percent": [
+        9.683654638828981,
+        25.140569863715243,
+        7.263854015536964,
+        57.9119214819188
+      ],
+      "images_containing_class": [
+        69,
+        70,
+        70,
+        70
+      ]
+    },
+    "valid": {
+      "image_count": 20,
+      "modes": [
+        "RGBA"
+      ],
+      "sizes_width_height": [
+        [
+          675,
+          480
+        ],
+        [
+          1096,
+          780
+        ],
+        [
+          1230,
+          875
+        ],
+        [
+          1278,
+          909
+        ],
+        [
+          1440,
+          1024
+        ]
+      ],
+      "images_with_non_grayscale_rgb": 0,
+      "non_grayscale_pixel_percent": 0.0,
+      "mask_count": 20,
+      "class_pixel_counts": [
+        1602353,
+        3333686,
+        1206385,
+        9614836
+      ],
+      "pooled_pixel_percent": [
+        10.168982424609355,
+        21.156508174644575,
+        7.656058223320552,
+        61.01845117742552
+      ],
+      "image_macro_pixel_percent": [
+        10.592634075488789,
+        20.02996444764007,
+        7.966078772811025,
+        61.411322704060105
+      ],
+      "images_containing_class": [
+        19,
+        20,
+        20,
+        20
+      ]
+    },
+    "test": {
+      "image_count": 10,
+      "modes": [
+        "RGBA"
+      ],
+      "sizes_width_height": [
+        [
+          675,
+          480
+        ],
+        [
+          1230,
+          875
+        ],
+        [
+          1278,
+          909
+        ],
+        [
+          1440,
+          1024
+        ]
+      ],
+      "images_with_non_grayscale_rgb": 0,
+      "non_grayscale_pixel_percent": 0.0
+    }
+  }
+}

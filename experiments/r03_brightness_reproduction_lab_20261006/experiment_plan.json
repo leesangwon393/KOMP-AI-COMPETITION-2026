@@ -1,0 +1,23 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "assignments": {
+    "gpu-l4-r03-repro": [
+      "A00_BASE",
+      "A01_BRIGHT_HALF"
+    ]
+  },
+  "runs": 6,
+  "epochs_per_run": 150,
+  "purpose": "Paired R03 brightness ablation with original major library versions",
+  "environment": {
+    "torch": "2.8.0+cu128",
+    "torchvision": "0.23.0+cu128",
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0"
+  },
+  "limitation": "Original R03 used Mac MPS; this is a separate T4 CUDA cohort, not the same execution environment."
+}

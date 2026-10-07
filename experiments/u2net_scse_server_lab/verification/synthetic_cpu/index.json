@@ -1,0 +1,42 @@
+{
+  "code_sha256": "49cb5393ee944552840291757fb56d8da63ad0a41cea82460ac536337688614d",
+  "requested": [
+    "B",
+    "B_SCRATCH",
+    "U2_CBAM",
+    "U2_CBAM_DEEP",
+    "U2_ECA",
+    "U2_ECA_CBAM",
+    "U2_ECA_CBAM_DEEP",
+    "U2_ECA_DEEP",
+    "U2_ECA_SCSE",
+    "U2_ECA_SCSE_DEEP",
+    "U2_PLAIN",
+    "U2_PLAIN_DEEP",
+    "U2_SCSE_ALL",
+    "U2_SCSE_ALL_DEEP",
+    "U2_SCSE_LAST2",
+    "U2_SCSE_LAST2_DEEP"
+  ],
+  "passed": [
+    "B",
+    "B_SCRATCH",
+    "U2_CBAM",
+    "U2_CBAM_DEEP",
+    "U2_ECA",
+    "U2_ECA_CBAM",
+    "U2_ECA_CBAM_DEEP",
+    "U2_ECA_DEEP",
+    "U2_ECA_SCSE",
+    "U2_ECA_SCSE_DEEP",
+    "U2_PLAIN",
+    "U2_PLAIN_DEEP",
+    "U2_SCSE_ALL",
+    "U2_SCSE_ALL_DEEP",
+    "U2_SCSE_LAST2",
+    "U2_SCSE_LAST2_DEEP"
+  ],
+  "failures": [],
+  "cuda_validated": false,
+  "training_results": false
+}

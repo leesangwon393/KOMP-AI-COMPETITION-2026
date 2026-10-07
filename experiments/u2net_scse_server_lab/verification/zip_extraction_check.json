@@ -1,0 +1,67 @@
+{
+  "passed": true,
+  "zip": "/Users/isang-won/Desktop/비전/KoMaP_U2Net_scSE_Server_20261004.zip",
+  "sha256": "3de56078457e7b7d641968a26a1347732ce63b6bb9906c5a613a7b6c06ae1251",
+  "checks": [
+    {
+      "command": [
+        "verify_release.py"
+      ],
+      "passed": true
+    },
+    {
+      "command": [
+        "run.py",
+        "list"
+      ],
+      "passed": true
+    },
+    {
+      "command": [
+        "server_suite.py",
+        "--help"
+      ],
+      "passed": true
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "setup.sh"
+      ],
+      "passed": true
+    },
+    {
+      "command": [
+        "bash",
+        "-n",
+        "run_server.sh"
+      ],
+      "passed": true
+    },
+    {
+      "command": [
+        "verify.py",
+        "--ids",
+        "U2_SCSE_ALL_DEEP",
+        "--output",
+        "checks/extraction_cpu"
+      ],
+      "passed": true
+    }
+  ],
+  "data_counts": {
+    "train": {
+      "images": 70,
+      "masks": 70
+    },
+    "valid": {
+      "images": 20,
+      "masks": 20
+    }
+  },
+  "configs": 16,
+  "planned_runs": 48,
+  "code_sha256": "49cb5393ee944552840291757fb56d8da63ad0a41cea82460ac536337688614d",
+  "cuda_validated": false
+}

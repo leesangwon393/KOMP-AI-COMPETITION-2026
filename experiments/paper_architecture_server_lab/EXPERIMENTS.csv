@@ -1,0 +1,128 @@
+id,group,architecture,backbone,initialization,implementation,source,description
+B,control,baseline,resnet101,imagenet,maintained_baseline,R022,"Maintained ResNet101 U-Net/scSE, R022-aligned recipe"
+B_SCRATCH,control,baseline,resnet101,none,maintained_baseline,R022,B trained from scratch
+B_D03,control,baseline,resnet101,imagenet,derived_module,D03,Contact CE1.5; historical negative multi-seed control
+E_RESNET18,encoder,common,resnet18,imagenet,library_encoder_common_decoder,P03,resnet18 + common U-Net/scSE decoder
+E_RESNET34,encoder,common,resnet34,imagenet,library_encoder_common_decoder,P03,resnet34 + common U-Net/scSE decoder
+E_RESNET50,encoder,common,resnet50,imagenet,library_encoder_common_decoder,P03,resnet50 + common U-Net/scSE decoder
+E_RESNET101,encoder,common,resnet101,imagenet,library_encoder_common_decoder,P03,resnet101 + common U-Net/scSE decoder
+E_RESNET152,encoder,common,resnet152,imagenet,library_encoder_common_decoder,P03,resnet152 + common U-Net/scSE decoder
+E_SE_RESNET50,encoder,common,se_resnet50,imagenet,library_encoder_common_decoder,P03,se_resnet50 + common U-Net/scSE decoder
+E_SE_RESNET101,encoder,common,se_resnet101,imagenet,library_encoder_common_decoder,P03,se_resnet101 + common U-Net/scSE decoder
+E_SE_RESNET152,encoder,common,se_resnet152,imagenet,library_encoder_common_decoder,P03,se_resnet152 + common U-Net/scSE decoder
+E_RESNEXT50_32X4D,encoder,common,resnext50_32x4d,imagenet,library_encoder_common_decoder,P03,resnext50_32x4d + common U-Net/scSE decoder
+E_RESNEXT101_32X8D,encoder,common,resnext101_32x8d,imagenet,library_encoder_common_decoder,P03,resnext101_32x8d + common U-Net/scSE decoder
+E_SE_RESNEXT50_32X4D,encoder,common,se_resnext50_32x4d,imagenet,library_encoder_common_decoder,P03,se_resnext50_32x4d + common U-Net/scSE decoder
+E_SE_RESNEXT101_32X4D,encoder,common,se_resnext101_32x4d,imagenet,library_encoder_common_decoder,P03,se_resnext101_32x4d + common U-Net/scSE decoder
+E_SENET154,encoder,common,senet154,imagenet,library_encoder_common_decoder,P03,senet154 + common U-Net/scSE decoder
+E_EFFICIENTNET_B0,encoder,common,efficientnet-b0,imagenet,library_encoder_common_decoder,P03,efficientnet-b0 + common U-Net/scSE decoder
+E_EFFICIENTNET_B1,encoder,common,efficientnet-b1,imagenet,library_encoder_common_decoder,P03,efficientnet-b1 + common U-Net/scSE decoder
+E_EFFICIENTNET_B2,encoder,common,efficientnet-b2,imagenet,library_encoder_common_decoder,P03,efficientnet-b2 + common U-Net/scSE decoder
+E_EFFICIENTNET_B3,encoder,common,efficientnet-b3,imagenet,library_encoder_common_decoder,P03,efficientnet-b3 + common U-Net/scSE decoder
+E_EFFICIENTNET_B4,encoder,common,efficientnet-b4,imagenet,library_encoder_common_decoder,P03,efficientnet-b4 + common U-Net/scSE decoder
+E_EFFICIENTNET_B5,encoder,common,efficientnet-b5,imagenet,library_encoder_common_decoder,P03,efficientnet-b5 + common U-Net/scSE decoder
+E_EFFICIENTNET_B6,encoder,common,efficientnet-b6,imagenet,library_encoder_common_decoder,P03,efficientnet-b6 + common U-Net/scSE decoder
+E_EFFICIENTNET_B7,encoder,common,efficientnet-b7,imagenet,library_encoder_common_decoder,P03,efficientnet-b7 + common U-Net/scSE decoder
+E_DENSENET121,encoder,common,densenet121,imagenet,library_encoder_common_decoder,P03,densenet121 + common U-Net/scSE decoder
+E_DENSENET161,encoder,common,densenet161,imagenet,library_encoder_common_decoder,P03,densenet161 + common U-Net/scSE decoder
+E_DENSENET169,encoder,common,densenet169,imagenet,library_encoder_common_decoder,P03,densenet169 + common U-Net/scSE decoder
+E_DENSENET201,encoder,common,densenet201,imagenet,library_encoder_common_decoder,P03,densenet201 + common U-Net/scSE decoder
+E_DPN68,encoder,common,dpn68,imagenet,library_encoder_common_decoder,P03,dpn68 + common U-Net/scSE decoder
+E_DPN68B,encoder,common,dpn68b,imagenet,library_encoder_common_decoder,P03,dpn68b + common U-Net/scSE decoder
+E_DPN92,encoder,common,dpn92,imagenet,library_encoder_common_decoder,P03,dpn92 + common U-Net/scSE decoder
+E_DPN98,encoder,common,dpn98,imagenet,library_encoder_common_decoder,P03,dpn98 + common U-Net/scSE decoder
+E_DPN107,encoder,common,dpn107,imagenet,library_encoder_common_decoder,P03,dpn107 + common U-Net/scSE decoder
+E_DPN131,encoder,common,dpn131,imagenet,library_encoder_common_decoder,P03,dpn131 + common U-Net/scSE decoder
+E_INCEPTIONV4,encoder,common,inceptionv4,imagenet,library_encoder_common_decoder,P03,inceptionv4 + common U-Net/scSE decoder
+E_INCEPTIONRESNETV2,encoder,common,inceptionresnetv2,imagenet,library_encoder_common_decoder,P03,inceptionresnetv2 + common U-Net/scSE decoder
+E_XCEPTION,encoder,common,xception,imagenet,library_encoder_common_decoder,P03,xception + common U-Net/scSE decoder
+E_MOBILENET_V2,encoder,common,mobilenet_v2,imagenet,library_encoder_common_decoder,P03,mobilenet_v2 + common U-Net/scSE decoder
+E_VGG11_BN,encoder,common,vgg11_bn,imagenet,library_encoder_common_decoder,P03,vgg11_bn + common U-Net/scSE decoder
+E_VGG13_BN,encoder,common,vgg13_bn,imagenet,library_encoder_common_decoder,P03,vgg13_bn + common U-Net/scSE decoder
+E_VGG16_BN,encoder,common,vgg16_bn,imagenet,library_encoder_common_decoder,P03,vgg16_bn + common U-Net/scSE decoder
+E_VGG11,encoder,common,vgg11,imagenet,library_encoder_common_decoder,P03,vgg11 + common U-Net/scSE decoder
+E_VGG13,encoder,common,vgg13,imagenet,library_encoder_common_decoder,P03,vgg13 + common U-Net/scSE decoder
+E_CONVNEXT_TINY_IN12K_FT_IN1K,encoder,common,timm:convnext_tiny.in12k_ft_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,convnext_tiny.in12k_ft_in1k + common decoder; feature alignment/detail skip recorded
+E_CONVNEXT_SMALL_IN12K_FT_IN1K,encoder,common,timm:convnext_small.in12k_ft_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,convnext_small.in12k_ft_in1k + common decoder; feature alignment/detail skip recorded
+E_CONVNEXTV2_TINY_FCMAE_FT_IN1K,encoder,common,timm:convnextv2_tiny.fcmae_ft_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,convnextv2_tiny.fcmae_ft_in1k + common decoder; feature alignment/detail skip recorded
+E_CONVNEXTV2_BASE_FCMAE_FT_IN1K,encoder,common,timm:convnextv2_base.fcmae_ft_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,convnextv2_base.fcmae_ft_in1k + common decoder; feature alignment/detail skip recorded
+E_SWIN_TINY_PATCH4_WINDOW7_224_MS_IN1K,encoder,common,timm:swin_tiny_patch4_window7_224.ms_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,swin_tiny_patch4_window7_224.ms_in1k + common decoder; feature alignment/detail skip recorded
+E_SWIN_SMALL_PATCH4_WINDOW7_224_MS_IN1K,encoder,common,timm:swin_small_patch4_window7_224.ms_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,swin_small_patch4_window7_224.ms_in1k + common decoder; feature alignment/detail skip recorded
+E_HRNET_W18_MS_IN1K,encoder,common,timm:hrnet_w18.ms_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,hrnet_w18.ms_in1k + common decoder; feature alignment/detail skip recorded
+E_HRNET_W48_MS_IN1K,encoder,common,timm:hrnet_w48.ms_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,hrnet_w48.ms_in1k + common decoder; feature alignment/detail skip recorded
+E_MOBILEVIT_S_CVNETS_IN1K,encoder,common,timm:mobilevit_s.cvnets_in1k,imagenet,library_encoder_common_decoder,P02/P09/additional,mobilevit_s.cvnets_in1k + common decoder; feature alignment/detail skip recorded
+E_MIT_B0,encoder,common,mit_b0,imagenet,library_encoder_common_decoder,P13,mit_b0 + common decoder
+E_MIT_B2,encoder,common,mit_b2,imagenet,library_encoder_common_decoder,P13,mit_b2 + common decoder
+E_MIT_B5,encoder,common,mit_b5,imagenet,library_encoder_common_decoder,P13,mit_b5 + common decoder
+D_UNET,decoder,Unet,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP Unet/ResNet101; library initialization differs from B
+D_UNETPLUSPLUS,decoder,UnetPlusPlus,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP UnetPlusPlus/ResNet101; library initialization differs from B
+D_FPN,decoder,FPN,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP FPN/ResNet101; library initialization differs from B
+D_PSPNET,decoder,PSPNet,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP PSPNet/ResNet101; library initialization differs from B
+D_PAN,decoder,PAN,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP PAN/ResNet101; library initialization differs from B
+D_DEEPLABV3,decoder,DeepLabV3,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP DeepLabV3/ResNet101; library initialization differs from B
+D_DEEPLABV3PLUS,decoder,DeepLabV3Plus,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP DeepLabV3Plus/ResNet101; library initialization differs from B
+D_LINKNET,decoder,Linknet,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP Linknet/ResNet101; library initialization differs from B
+D_MANET,decoder,MAnet,resnet101,imagenet,library_native_multiclass,P03/P06/P15,SMP MAnet/ResNet101; library initialization differs from B
+F_SEGFORMER_MIT_B0,native,Segformer,mit_b0,imagenet,library_native_multiclass,P13,Native SegFormer mit_b0
+F_SEGFORMER_MIT_B2,native,Segformer,mit_b2,imagenet,library_native_multiclass,P13,Native SegFormer mit_b2
+F_SEGFORMER_MIT_B5,native,Segformer,mit_b5,imagenet,library_native_multiclass,P13,Native SegFormer mit_b5
+PF_UNET_R50,decoder,Unet,resnet50,imagenet,library_native_real_only,P15,PF-DiffSeg downstream Unet/R50 real-only (no generator)
+PF_UNETPLUSPLUS_R50,decoder,UnetPlusPlus,resnet50,imagenet,library_native_real_only,P15,PF-DiffSeg downstream UnetPlusPlus/R50 real-only (no generator)
+PF_LINKNET_R50,decoder,Linknet,resnet50,imagenet,library_native_real_only,P15,PF-DiffSeg downstream Linknet/R50 real-only (no generator)
+PF_MANET_R50,decoder,MAnet,resnet50,imagenet,library_native_real_only,P15,PF-DiffSeg downstream MAnet/R50 real-only (no generator)
+F_FCN_R101,native,fcn,resnet101,imagenet,library_native_multiclass,P06,Torchvision FCN-R101/four-class head
+F_SEGNET,native,segnet,resnet101,none,independent_native_multiclass,P06,"VGG16-BN style pool-index SegNet, scratch"
+F_U2,native,u2net,resnet101,none,upstream_native_multiclass,P10,U2NET multiclass
+F_U2_DEEP,native,u2net,resnet101,none,upstream_native_multiclass,P10,U2NET multiclass six-head supervision
+F_U2P,native,u2netp,resnet101,none,upstream_native_multiclass,P10,U2NETP multiclass
+F_U2P_DEEP,native,u2netp,resnet101,none,upstream_native_multiclass,P10,U2NETP multiclass six-head supervision
+E_RSU,encoder,common,rsu,none,upstream_encoder_common_decoder,P10,RSU encoder adapted to baseline skip widths
+E_RSU_DEEP,module,common,rsu,none,derived_module,P10,RSU/common decoder + deep heads
+M_ATTN_NONE,module,common,resnet101,imagenet,derived_module,P01/P04,Replace decoder scSE with none
+M_ATTN_ECA,module,common,resnet101,imagenet,derived_module,P01/P04,Replace decoder scSE with eca
+M_ATTN_CBAM,module,common,resnet101,imagenet,derived_module,P01/P04,Replace decoder scSE with cbam
+M_ATTN_ECA_CBAM,module,common,resnet101,imagenet,derived_module,P01/P04,Replace decoder scSE with eca_cbam
+M_ATTN_APAM,module,common,resnet101,imagenet,derived_module,P01/P04,Replace decoder scSE with apam
+M_ASPP,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + aspp (paper-inspired)
+M_LSTM,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + lstm (paper-inspired)
+M_CMAA,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + cmaa (paper-inspired)
+M_OCR,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + ocr (paper-inspired)
+M_SNAKE,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + snake (paper-inspired)
+M_FREQUENCY,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + frequency (paper-inspired)
+M_WEIGHTED_SKIP,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + weighted_skip (paper-inspired)
+M_CROSS_ATTENTION,module,common,resnet101,imagenet,derived_module,P01/P08/P09/P12/P14/P16,Common decoder + cross_attention (paper-inspired)
+M_RRCU_FEATURE,module,baseline,resnet101,imagenet,derived_module,P17,B recurrent feature
+M_RRCU_SPATIAL_GATE,module,baseline,resnet101,imagenet,derived_module,P17,B recurrent spatial_gate
+M_RRCU_CHANNEL_GATE,module,baseline,resnet101,imagenet,derived_module,P17,B recurrent channel_gate
+M_FREQ_NOOFFSET,module,baseline,resnet101,imagenet,derived_module,P08,B content-adaptive low/high-pass fusion
+M_FREQ_OFFSET,module,common,resnet101,imagenet,derived_module,P08,Low/high-pass fusion + bounded low-res resampling
+M_PIXELSHUFFLE,module,baseline,resnet101,imagenet,derived_module,additional,B pixel-shuffle final upsampling
+M_CONNECTIVITY,module,baseline,resnet101,imagenet,derived_module,P11,B four-class eight-direction connectivity auxiliary
+M_BEM,module,baseline,resnet101,imagenet,derived_module,additional,B morphological boundary enhancement
+M_DEEP,module,common,resnet101,imagenet,derived_module,P07/P10/P14,Common decoder three-scale supervision
+M_CONSISTENCY,module,common,resnet101,imagenet,derived_module,P07,Train70 deep heads + stop-gradient scale consistency; no EMA/unlabeled data
+M_CROSS_MIT_B2,module,common,mit_b2,imagenet,derived_module,P13,MiT/common decoder + adjacent-scale reduced-KV cross attention
+M_CROSS_MIT_B5,module,common,mit_b5,imagenet,derived_module,P13,MiT/common decoder + adjacent-scale reduced-KV cross attention
+M_HRNET_OCR,module,common,timm:hrnet_w48.ms_in1k,imagenet,derived_module,P09,HRNet-W48/common decoder + prototype OCR
+H_RESNET101_SWIN,hybrid,common,resnet101,imagenet,derived_hybrid,P02,Parallel resnet101 + Swin-T/common decoder; CS-inspired
+H_SE_RESNET50_SWIN,hybrid,common,se_resnet50,imagenet,derived_hybrid,P02,Parallel se_resnet50 + Swin-T/common decoder; CS-inspired
+H_SE_RESNET101_SWIN,hybrid,common,se_resnet101,imagenet,derived_hybrid,P02,Parallel se_resnet101 + Swin-T/common decoder; CS-inspired
+H_SE_RESNET152_SWIN,hybrid,common,se_resnet152,imagenet,derived_hybrid,P02,Parallel se_resnet152 + Swin-T/common decoder; CS-inspired
+H_SE_RESNEXT50_32X4D_SWIN,hybrid,common,se_resnext50_32x4d,imagenet,derived_hybrid,P02,Parallel se_resnext50_32x4d + Swin-T/common decoder; CS-inspired
+H_SE_RESNEXT101_32X4D_SWIN,hybrid,common,se_resnext101_32x4d,imagenet,derived_hybrid,P02,Parallel se_resnext101_32x4d + Swin-T/common decoder; CS-inspired
+H_SENET154_SWIN,hybrid,common,senet154,imagenet,derived_hybrid,P02,Parallel senet154 + Swin-T/common decoder; CS-inspired
+H_RESNEXT101_32X8D_SWIN,hybrid,common,resnext101_32x8d,imagenet,derived_hybrid,P02,Parallel resnext101_32x8d + Swin-T/common decoder; CS-inspired
+H_INCEPTIONV4_SWIN,hybrid,common,inceptionv4,imagenet,derived_hybrid,P02,Parallel inceptionv4 + Swin-T/common decoder; CS-inspired
+H_INCEPTIONRESNETV2_SWIN,hybrid,common,inceptionresnetv2,imagenet,derived_hybrid,P02,Parallel inceptionresnetv2 + Swin-T/common decoder; CS-inspired
+H_DENSENET161_SWIN,hybrid,common,densenet161,imagenet,derived_hybrid,P02,Parallel densenet161 + Swin-T/common decoder; CS-inspired
+H_DENSENET201_SWIN,hybrid,common,densenet201,imagenet,derived_hybrid,P02,Parallel densenet201 + Swin-T/common decoder; CS-inspired
+H_VGG13_BN_SWIN,hybrid,common,vgg13_bn,imagenet,derived_hybrid,P02,Parallel vgg13_bn + Swin-T/common decoder; CS-inspired
+H_VGG16_BN_SWIN,hybrid,common,vgg16_bn,imagenet,derived_hybrid,P02,Parallel vgg16_bn + Swin-T/common decoder; CS-inspired
+H_MOBILENET_V2_SWIN,hybrid,common,mobilenet_v2,imagenet,derived_hybrid,P02,Parallel mobilenet_v2 + Swin-T/common decoder; CS-inspired
+H_EFFICIENTNET_B1_SWIN,hybrid,common,efficientnet-b1,imagenet,derived_hybrid,P02,Parallel efficientnet-b1 + Swin-T/common decoder; CS-inspired
+H_EFFICIENTNET_B2_SWIN,hybrid,common,efficientnet-b2,imagenet,derived_hybrid,P02,Parallel efficientnet-b2 + Swin-T/common decoder; CS-inspired
+H_EFFICIENTNET_B3_SWIN,hybrid,common,efficientnet-b3,imagenet,derived_hybrid,P02,Parallel efficientnet-b3 + Swin-T/common decoder; CS-inspired
+H_EFFICIENTNET_B4_SWIN,hybrid,common,efficientnet-b4,imagenet,derived_hybrid,P02,Parallel efficientnet-b4 + Swin-T/common decoder; CS-inspired
+H_EFFICIENTNET_B5_SWIN,hybrid,common,efficientnet-b5,imagenet,derived_hybrid,P02,Parallel efficientnet-b5 + Swin-T/common decoder; CS-inspired
+T_R101_MICRONET,pretraining,baseline,resnet101,micronet,maintained_encoder_weight_transfer,P03,R101 micronet v1.0 with fixed ImageNet normalization
+T_R101_IMAGENET_MICRONET,pretraining,baseline,resnet101,imagenet-micronet,maintained_encoder_weight_transfer,P03,R101 imagenet-micronet v1.0 with fixed ImageNet normalization

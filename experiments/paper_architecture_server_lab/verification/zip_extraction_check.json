@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "release_code_sha256": "bef77555e25aae6b23219865593d27b01a056ac9d0a3d79e52052e32289205fb",
+  "main_zip_sha256": "9b363fad1cd05ae288819ac58b9c5fca7c332bc4d73a813ae595d8d3c2741040",
+  "source_and_data_files_verified": 490,
+  "listed_configs": 127,
+  "extracted_mit_b2_cross_attention_two_step_check": true,
+  "split_test_images_verified": 10,
+  "note": "Post-build external verification; deliberately not part of ZIP to avoid circular archive hash"
+}

@@ -1,0 +1,104 @@
+{
+  "source": "docs/experiment_snapshot_20261008/H100_SOURCE_REPORT_KO.md",
+  "report_as_of_kst": "2026-10-07 18:53",
+  "reported_completed_runs": 32,
+  "reported_total_runs": 32,
+  "aggregates": [
+    {
+      "id": "B",
+      "seeds": 3,
+      "d4_mean_pct": 79.8202,
+      "paired_delta_pp": 0.0,
+      "paired_delta_std_pp": 0.0,
+      "conclusion": "최종 1위"
+    },
+    {
+      "id": "CS_CBAM",
+      "seeds": 3,
+      "d4_mean_pct": 79.819,
+      "paired_delta_pp": -0.0012,
+      "paired_delta_std_pp": 0.1482,
+      "conclusion": "사실상 동률, 향상 아님"
+    },
+    {
+      "id": "C_ALL",
+      "seeds": 3,
+      "d4_mean_pct": 79.7879,
+      "paired_delta_pp": -0.0323,
+      "paired_delta_std_pp": 0.0576,
+      "conclusion": "향상 없음"
+    },
+    {
+      "id": "M_UNSHARED",
+      "seeds": 3,
+      "d4_mean_pct": 79.776,
+      "paired_delta_pp": -0.0443,
+      "paired_delta_std_pp": 0.066,
+      "conclusion": "향상 없음"
+    },
+    {
+      "id": "C0",
+      "seeds": 3,
+      "d4_mean_pct": 79.7485,
+      "paired_delta_pp": -0.0717,
+      "paired_delta_std_pp": 0.1232,
+      "conclusion": "향상 없음"
+    },
+    {
+      "id": "C3",
+      "seeds": 3,
+      "d4_mean_pct": 79.7224,
+      "paired_delta_pp": -0.0978,
+      "paired_delta_std_pp": 0.1725,
+      "conclusion": "향상 없음"
+    },
+    {
+      "id": "S_CBAM",
+      "seeds": 3,
+      "d4_mean_pct": 79.5659,
+      "paired_delta_pp": -0.2543,
+      "paired_delta_std_pp": 0.3505,
+      "conclusion": "저하"
+    }
+  ],
+  "final_per_seed_rows": [
+    {
+      "id": "B",
+      "seed": 42,
+      "d4_pct": 80.0013,
+      "delta_pp": null
+    },
+    {
+      "id": "CS_CBAM",
+      "seed": 42,
+      "d4_pct": 79.8545,
+      "delta_pp": -0.1467
+    },
+    {
+      "id": "B",
+      "seed": 43,
+      "d4_pct": 79.669,
+      "delta_pp": null
+    },
+    {
+      "id": "CS_CBAM",
+      "seed": 43,
+      "d4_pct": 79.8186,
+      "delta_pp": 0.1496
+    },
+    {
+      "id": "B",
+      "seed": 44,
+      "d4_pct": 79.7905,
+      "delta_pp": null
+    },
+    {
+      "id": "CS_CBAM",
+      "seed": 44,
+      "d4_pct": 79.784,
+      "delta_pp": -0.0064
+    }
+  ],
+  "evidence": "User-provided report; raw server checkpoints, masks and full 32-run table not supplied",
+  "counting_note": "Aggregate rows and per-seed rows overlap; do not add them as new runs."
+}

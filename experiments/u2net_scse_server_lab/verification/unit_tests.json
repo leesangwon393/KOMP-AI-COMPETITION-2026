@@ -1,0 +1,9 @@
+{
+  "code_sha256": "49cb5393ee944552840291757fb56d8da63ad0a41cea82460ac536337688614d",
+  "passed": true,
+  "tests": 13,
+  "failures": 0,
+  "errors": 0,
+  "device": "cpu",
+  "real_komap_training": false
+}

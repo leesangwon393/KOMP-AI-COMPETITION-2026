@@ -1,0 +1,46 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "94c6dae763f2fff6a9ef12736edd9b7fa7faaa70ea3603e69043edaa72e031b0"
+  },
+  "checks": [
+    {
+      "id": "U2",
+      "status": "passed",
+      "synthetic_size": 448,
+      "synthetic_batch_size": 4,
+      "parameters": 36375275,
+      "steps": [
+        {
+          "loss": 1.0963585376739502,
+          "seg_loss": 1.0963585376739502,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.013392857275903225
+        },
+        {
+          "loss": 1.0098097324371338,
+          "seg_loss": 1.0098097324371338,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.013392857275903225
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

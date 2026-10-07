@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "fixture_unique_runs": 12,
+  "primary_runs": 9,
+  "followup_runs": 3,
+  "batch8_propagated": true,
+  "completed_and_skip_baseline_resume": true,
+  "batch_change_rejected": true,
+  "paired_summary_and_promotion": true,
+  "note": "Queue fixtures only; no actual model scores or training"
+}

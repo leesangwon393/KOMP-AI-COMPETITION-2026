@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "baseline_bitwise_equal": true,
+  "samples_per_condition": 16,
+  "conditions": [
+    {
+      "id": "A00_BASE",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A01_BRIGHT_HALF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A02_BRIGHT_OFF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A03_CONTRAST_OFF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A04_GAMMA_OFF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A05_GAMMA_HALF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A06_NOISE_OFF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A07_NOISE_HALF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A08_PHOTO_OFF",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A09_BLUR_WEAK",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A10_ILLUM_GRAD",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    },
+    {
+      "id": "A11_BRIGHT_HALF_BLUR",
+      "paired_crops": true,
+      "legacy_rng_equal": true,
+      "resume_rng_equal": true
+    }
+  ],
+  "original_image_count": 70,
+  "note": "Dataset/RNG verification; no quality claim"
+}

@@ -1,0 +1,13 @@
+test_auxiliary_head_loss_contract_is_rejected (test_contract.Contracts) ... ok
+test_baseline_parameters_outputs_and_rng_equal_reference (test_contract.Contracts) ... ok
+test_catalogue_protocol_and_profiles (test_contract.Contracts) ... ok
+test_missing_runs_not_ranked_as_completed (test_contract.Contracts) ... ok
+test_patch_sampling_is_independent_of_model_rng (test_contract.Contracts) ... ok
+test_protocol_keeps_epoch_seed_batch_and_loss (test_contract.Contracts) ... ok
+test_interrupted_connectivity_run_matches_uninterrupted (test_resume.ResumeTest) ... ok
+test_real_tiling_exports_checkpoint_evaluation_and_comparison (test_resume.ResumeTest) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 22.261s
+
+OK

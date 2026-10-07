@@ -1,0 +1,1144 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "id": "B",
+      "units": [],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737125992774963
+      ],
+      "parameters": 51611179,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C3",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737092614173889
+      ],
+      "parameters": 51611779,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": true,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C0",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737108707427979
+      ],
+      "parameters": 51619915,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C1",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737117052078247
+      ],
+      "parameters": 51613435,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C2",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737100958824158
+      ],
+      "parameters": 51611779,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C4",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.873714029788971
+      ],
+      "parameters": 51611491,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_T1",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_gate",
+          "steps": 1,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737108707427979
+      ],
+      "parameters": 51619915,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_UNSHARED",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "unshared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737108707427979
+      ],
+      "parameters": 51620187,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_SPATIAL",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "spatial_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737107515335083
+      ],
+      "parameters": 51617660,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_BOTH",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "both_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737106919288635
+      ],
+      "parameters": 51626396,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_T1",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_gate",
+          "steps": 1,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737092018127441
+      ],
+      "parameters": 51611779,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_UNSHARED",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "unshared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737093210220337
+      ],
+      "parameters": 51611799,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_SPATIAL",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "spatial_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737097382545471
+      ],
+      "parameters": 51614588,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_BOTH",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "both_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737097978591919
+      ],
+      "parameters": 51615188,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_T1",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_gate",
+          "steps": 1,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.873714029788971
+      ],
+      "parameters": 51611491,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_UNSHARED",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "unshared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737140893936157
+      ],
+      "parameters": 51611511,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_SPATIAL",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "spatial_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737252354621887
+      ],
+      "parameters": 51614076,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "M_BOTH",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "both_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737257719039917
+      ],
+      "parameters": 51614388,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C_TOP2",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        },
+        {
+          "stage": 2,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737114667892456
+      ],
+      "parameters": 51612379,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "C_ALL",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        },
+        {
+          "stage": 1,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        },
+        {
+          "stage": 2,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        },
+        {
+          "stage": 3,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        },
+        {
+          "stage": 4,
+          "mode": "channel_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737100958824158
+      ],
+      "parameters": 51623683,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_CBAM",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737104535102844
+      ],
+      "parameters": 51611278,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_CBAM",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737105131149292
+      ],
+      "parameters": 51620014,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_COORDINATE",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737107515335083
+      ],
+      "parameters": 51615308,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_COORDINATE",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737107515335083
+      ],
+      "parameters": 51624044,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_MULTISCALE",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737108111381531
+      ],
+      "parameters": 51620908,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_MULTISCALE",
+      "units": [
+        {
+          "stage": 0,
+          "mode": "channel_multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737108707427979
+      ],
+      "parameters": 51629644,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_CBAM",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737099170684814
+      ],
+      "parameters": 51611278,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_CBAM",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "channel_cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737098574638367
+      ],
+      "parameters": 51613534,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_COORDINATE",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737117648124695
+      ],
+      "parameters": 51612220,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_COORDINATE",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "channel_coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737117052078247
+      ],
+      "parameters": 51614476,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_MULTISCALE",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737114071846008
+      ],
+      "parameters": 51616044,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_MULTISCALE",
+      "units": [
+        {
+          "stage": 1,
+          "mode": "channel_multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737116456031799
+      ],
+      "parameters": 51618300,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_CBAM",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8736536502838135
+      ],
+      "parameters": 51611278,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_CBAM",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "channel_cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8736534118652344
+      ],
+      "parameters": 51611878,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_COORDINATE",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737096190452576
+      ],
+      "parameters": 51611708,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_COORDINATE",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "channel_coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737088441848755
+      ],
+      "parameters": 51612308,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_MULTISCALE",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737051486968994
+      ],
+      "parameters": 51613612,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_MULTISCALE",
+      "units": [
+        {
+          "stage": 2,
+          "mode": "channel_multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737042546272278
+      ],
+      "parameters": 51614212,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_CBAM",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737353086471558
+      ],
+      "parameters": 51611278,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_CBAM",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737348318099976
+      ],
+      "parameters": 51611878,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_COORDINATE",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737097978591919
+      ],
+      "parameters": 51611708,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_COORDINATE",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737095594406128
+      ],
+      "parameters": 51612308,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_MULTISCALE",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737112283706665
+      ],
+      "parameters": 51613612,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_MULTISCALE",
+      "units": [
+        {
+          "stage": 3,
+          "mode": "channel_multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737093806266785
+      ],
+      "parameters": 51614212,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_CBAM",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8738700747489929
+      ],
+      "parameters": 51611278,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_CBAM",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_cbam_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8738709092140198
+      ],
+      "parameters": 51611590,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_COORDINATE",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737163543701172
+      ],
+      "parameters": 51611452,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_COORDINATE",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_coordinate_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737171292304993
+      ],
+      "parameters": 51611764,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "S_MULTISCALE",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737257122993469
+      ],
+      "parameters": 51612396,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    },
+    {
+      "id": "CS_MULTISCALE",
+      "units": [
+        {
+          "stage": 4,
+          "mode": "channel_multiscale_gate",
+          "steps": 2,
+          "sharing": "shared"
+        }
+      ],
+      "passed": true,
+      "losses": [
+        1.1143873929977417,
+        0.8737272024154663
+      ],
+      "parameters": 51612708,
+      "legacy_base_tensors_equal": true,
+      "legacy_R03_tensors_equal": false,
+      "sampling_rng_equal": true,
+      "synthetic_size": 64,
+      "batch_size": 2
+    }
+  ],
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "c99090ca087b6cce9a91a6a13c415003b22a00c625d10a19ebf711c77738879f"
+  },
+  "data_crop_pairing_verified": true,
+  "note": "Fresh synthetic optimizer checks, not quality training; pretrained downloads not required"
+}

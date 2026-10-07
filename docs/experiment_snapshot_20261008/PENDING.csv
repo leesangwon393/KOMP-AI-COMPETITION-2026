@@ -1,0 +1,46 @@
+계열,실험 ID,변경 내용,유형,seed,상태,완료 epoch,예정 epoch,best epoch,Single mIoU (%),D4 mIoU (%),부모 대비 차이 (%p),비교 부모,근거 수준,원자료,비고
+L4 아키텍처,U2_CBAM,CBAM on six side-head feature maps before prediction/fusion; fused loss only,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_CBAM,RSU residual-branch ECA + six pre-fusion CBAM gates; fused loss only,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_SCSE,RSU residual-branch ECA + five decoder scSE gates; fused loss only,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,B,"Maintained ResNet101 U-Net/scSE, R022-aligned recipe",분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,B_SCRATCH,"R101 U-Net/scSE baseline, fresh scratch initialization",분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_PLAIN_DEEP,U²-Net without attention; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_SCSE_ALL_DEEP,scSE after all five decoder RSUs; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_SCSE_LAST2_DEEP,scSE after stage2d/stage1d only; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_DEEP,ECA on final residual branch inside all 11 outer RSUs; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_CBAM_DEEP,CBAM on six side-head feature maps before prediction/fusion; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_CBAM_DEEP,RSU residual-branch ECA + six pre-fusion CBAM gates; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_SCSE_DEEP,RSU residual-branch ECA + five decoder scSE gates; six-side deep supervision,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_PLAIN,U²-Net without attention; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_SCSE_ALL,scSE after all five decoder RSUs; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_SCSE_LAST2,scSE after stage2d/stage1d only; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA,ECA on final residual branch inside all 11 outer RSUs; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_CBAM,CBAM on six side-head feature maps before prediction/fusion; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_CBAM,RSU residual-branch ECA + six pre-fusion CBAM gates; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_ECA_SCSE,RSU residual-branch ECA + five decoder scSE gates; fused loss only,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_20261005/trials/plan.json,gpu-l4
+L4 아키텍처,U2_SCSE_ALL,scSE after all five decoder RSUs; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+L4 아키텍처,U2_SCSE_LAST2,scSE after stage2d/stage1d only; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+L4 아키텍처,U2_ECA,ECA on final residual branch inside all 11 outer RSUs; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+L4 아키텍처,U2_CBAM,CBAM on six side-head feature maps before prediction/fusion; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+L4 아키텍처,U2_ECA_CBAM,RSU residual-branch ECA + six pre-fusion CBAM gates; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+L4 아키텍처,U2_ECA_SCSE,RSU residual-branch ECA + five decoder scSE gates; fused loss only,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/runs/colab_gpu_l4_2_20261005/trials/plan.json,gpu-l4-2
+Mac 후속 검증,L02_LOVASZ35,CE.5 Dice.15 Lovasz.35,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,experiments/followup_unet_lab/runs/followup_mps_20261004/trials/plan.json,
+Mac 후속 검증,O01_LR2,AdamW global learning rate2e-4,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,experiments/followup_unet_lab/runs/followup_mps_20261004/trials/plan.json,
+Mac 후속 검증,O02_LR4,AdamW global learning rate4e-4,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,experiments/followup_unet_lab/runs/followup_mps_20261004/trials/plan.json,
+R03 증강,A04_GAMMA_OFF,Disable gamma exponent perturbation,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A06_NOISE_OFF,Disable Gaussian noise,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A08_PHOTO_OFF,Disable all original photometric transforms,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A10_ILLUM_GRAD,Add smooth linear illumination field amplitude .04 p=.3,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A11_BRIGHT_HALF_BLUR,Predeclared brightness-half and weak-blur interaction,분할 학습,42,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A02_BRIGHT_OFF,Disable brightness; retain contrast,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A04_GAMMA_OFF,Disable gamma exponent perturbation,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A06_NOISE_OFF,Disable Gaussian noise,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A08_PHOTO_OFF,Disable all original photometric transforms,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A10_ILLUM_GRAD,Add smooth linear illumination field amplitude .04 p=.3,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A11_BRIGHT_HALF_BLUR,Predeclared brightness-half and weak-blur interaction,분할 학습,43,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A02_BRIGHT_OFF,Disable brightness; retain contrast,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A04_GAMMA_OFF,Disable gamma exponent perturbation,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A06_NOISE_OFF,Disable Gaussian noise,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A08_PHOTO_OFF,Disable all original photometric transforms,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A10_ILLUM_GRAD,Add smooth linear illumination field amplitude .04 p=.3,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,
+R03 증강,A11_BRIGHT_HALF_BLUR,Predeclared brightness-half and weak-blur interaction,분할 학습,44,등록 대기,,150,,,,,,로컬 저장 지표,local-artifacts/experiments/r03_augmentation_ops_20261005/execution_policy.json,

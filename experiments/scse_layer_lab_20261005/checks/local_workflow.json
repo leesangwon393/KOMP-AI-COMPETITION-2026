@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "workflow": {
+    "fixture_runs": 32,
+    "completed_resume_skipped": true,
+    "selection_and_config_guards": true,
+    "note": "Orchestration fixtures only; no quality scores"
+  },
+  "resume": {
+    "real_cpu_epochs": 5,
+    "backbone": "resnet34",
+    "synthetic_size": 64,
+    "interruption_before_epoch2_checkpoint": true,
+    "final_model_bitwise_equal": true,
+    "history_loss_scores_equal": true,
+    "note": "Synthetic CPU training only; not alloy model performance"
+  }
+}

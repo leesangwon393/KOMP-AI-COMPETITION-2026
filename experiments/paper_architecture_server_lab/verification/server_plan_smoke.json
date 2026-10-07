@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "code_sha256": "bef77555e25aae6b23219865593d27b01a056ac9d0a3d79e52052e32289205fb",
+  "fresh_runs": 4,
+  "resume_completed_runs_skipped": true,
+  "synthetic_fixture_only": true,
+  "failed_trial_continued": true,
+  "epoch0_failure_archived_and_retried": true
+}

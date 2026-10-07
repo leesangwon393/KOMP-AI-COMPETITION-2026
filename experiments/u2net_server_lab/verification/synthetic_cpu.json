@@ -1,0 +1,397 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "94c6dae763f2fff6a9ef12736edd9b7fa7faaa70ea3603e69043edaa72e031b0"
+  },
+  "checks": [
+    {
+      "id": "B",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.827519416809082,
+          "seg_loss": 0.827519416809082,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "B_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8404282927513123,
+          "seg_loss": 0.8404282927513123,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "B_SCRATCH",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.827519416809082,
+          "seg_loss": 0.827519416809082,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "F0",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 44051452,
+      "steps": [
+        {
+          "loss": 1.0955134630203247,
+          "seg_loss": 1.0955134630203247,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.7197812795639038,
+          "seg_loss": 0.7197812795639038,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "F0_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 44051452,
+      "steps": [
+        {
+          "loss": 1.0908575057983398,
+          "seg_loss": 1.0908575057983398,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.7465469837188721,
+          "seg_loss": 0.7465469837188721,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "F1",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 44097601,
+      "steps": [
+        {
+          "loss": 1.089356780052185,
+          "seg_loss": 1.089356780052185,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.6876158714294434,
+          "seg_loss": 0.6876158714294434,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "F2",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 44097601,
+      "steps": [
+        {
+          "loss": 1.083331823348999,
+          "seg_loss": 1.083331823348999,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.7127672433853149,
+          "seg_loss": 0.7127672433853149,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "F3",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 44097601,
+      "steps": [
+        {
+          "loss": 1.1017142534255981,
+          "seg_loss": 1.089356780052185,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 1.1223101615905762,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8774850368499756,
+          "seg_loss": 0.7373800277709961,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 1.1109933853149414,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "U0",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36375275,
+      "steps": [
+        {
+          "loss": 1.0938831567764282,
+          "seg_loss": 1.0938831567764282,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.9674091935157776,
+          "seg_loss": 0.9674091935157776,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "U1",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36362756,
+      "steps": [
+        {
+          "loss": 1.0997114181518555,
+          "seg_loss": 1.0997114181518555,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.9709820747375488,
+          "seg_loss": 0.9709820747375488,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "U2",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36375275,
+      "steps": [
+        {
+          "loss": 1.0947473049163818,
+          "seg_loss": 1.0947473049163818,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.969048798084259,
+          "seg_loss": 0.969048798084259,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "U3_R01",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36309739,
+      "steps": [
+        {
+          "loss": 1.1450086832046509,
+          "seg_loss": 1.1450086832046509,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 1.0044300556182861,
+          "seg_loss": 1.0044300556182861,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "U3_R02",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36378684,
+      "steps": [
+        {
+          "loss": 1.0938831567764282,
+          "seg_loss": 1.0938831567764282,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.9674087762832642,
+          "seg_loss": 0.9674087762832642,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "U3_R03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 36375875,
+      "steps": [
+        {
+          "loss": 1.0938831567764282,
+          "seg_loss": 1.0938831567764282,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.9674090147018433,
+          "seg_loss": 0.9674090147018433,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0.0,
+          "deep_supervision_loss": 0.0,
+          "contact_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

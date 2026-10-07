@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "tensors": 718,
+  "same_state_keys": true,
+  "same_initial_tensors": true,
+  "same_global_rng": true,
+  "same_raw_logits": true,
+  "reference_source": "development_server_lab/komap_phase/models.py",
+  "reference_source_sha256": "dff7675cfabaea7f5aea3974e41075e43bec2b84cbf3dec53b05789e65b1ac99",
+  "code_sha256": "94c6dae763f2fff6a9ef12736edd9b7fa7faaa70ea3603e69043edaa72e031b0",
+  "note": "B architecture initialization/forward identity only; sampler is deliberately matched independently and differs from historical package."
+}

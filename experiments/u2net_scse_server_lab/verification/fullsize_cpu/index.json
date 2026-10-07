@@ -1,0 +1,14 @@
+{
+  "code_sha256": "49cb5393ee944552840291757fb56d8da63ad0a41cea82460ac536337688614d",
+  "requested": [
+    "U2_ECA_SCSE_DEEP",
+    "U2_ECA_CBAM_DEEP"
+  ],
+  "passed": [
+    "U2_ECA_SCSE_DEEP",
+    "U2_ECA_CBAM_DEEP"
+  ],
+  "failures": [],
+  "cuda_validated": false,
+  "training_results": false
+}

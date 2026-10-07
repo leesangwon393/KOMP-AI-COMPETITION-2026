@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "tests_run": 10,
+  "failures": 0,
+  "errors": 0,
+  "scope": "Synthetic fixtures/objectives/resume/tiled evaluation/exports/comparison; no training on real KoMaP data",
+  "torch": "2.8.0"
+}

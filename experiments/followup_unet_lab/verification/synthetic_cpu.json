@@ -1,0 +1,253 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "64e1aea70f7c290b22e5a7520e9be57d2262f8917ebf85e61b0af57701aed017"
+  },
+  "checks": [
+    {
+      "id": "B",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.827518880367279,
+          "seg_loss": 0.827518880367279,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8404273390769958,
+          "seg_loss": 0.8404273390769958,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L01_DICE35",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0746097564697266,
+          "seg_loss": 1.0746097564697266,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8271797299385071,
+          "seg_loss": 0.8271797299385071,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "L02_LOVASZ35",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0745060443878174,
+          "seg_loss": 1.0745060443878174,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8286841511726379,
+          "seg_loss": 0.8286841511726379,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "O01_LR2",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8538255095481873,
+          "seg_loss": 0.8538255095481873,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "O02_LR4",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8154773712158203,
+          "seg_loss": 0.8154773712158203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "X01_FREQ",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51625165,
+      "steps": [
+        {
+          "loss": 1.0903472900390625,
+          "seg_loss": 1.0903472900390625,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.8594107627868652,
+          "seg_loss": 0.8594107627868652,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    },
+    {
+      "id": "X02_CONN",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51612235,
+      "steps": [
+        {
+          "loss": 1.110748052597046,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.7238025665283203
+        },
+        {
+          "loss": 0.8654507994651794,
+          "seg_loss": 0.8285692930221558,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.7376305460929871
+        }
+      ]
+    },
+    {
+      "id": "X03_PIXEL",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51627819,
+      "steps": [
+        {
+          "loss": 1.1092216968536377,
+          "seg_loss": 1.1092216968536377,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        },
+        {
+          "loss": 0.9248020648956299,
+          "seg_loss": 0.9248020648956299,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

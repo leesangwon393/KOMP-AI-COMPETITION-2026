@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "model": "R03",
+  "initialization": "fresh public ImageNet V2",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 150,
+  "batch_size": 4,
+  "samples_per_epoch": 420,
+  "assignments": {
+    "gpu-l4-aug1": [
+      "A00_BASE",
+      "A01_BRIGHT_HALF",
+      "A03_CONTRAST_OFF",
+      "A05_GAMMA_HALF",
+      "A07_NOISE_HALF",
+      "A09_BLUR_WEAK"
+    ],
+    "gpu-l4-aug2": [
+      "A02_BRIGHT_OFF",
+      "A04_GAMMA_OFF",
+      "A06_NOISE_OFF",
+      "A08_PHOTO_OFF",
+      "A10_ILLUM_GRAD",
+      "A11_BRIGHT_HALF_BLUR"
+    ]
+  },
+  "runs": 36,
+  "selection": "best checkpoint by single-view; D4 at same checkpoint",
+  "variants": [
+    {
+      "id": "A00_BASE",
+      "description": "Current R03 augmentation control",
+      "changes": {}
+    },
+    {
+      "id": "A01_BRIGHT_HALF",
+      "description": "Brightness amplitude .08 to .04",
+      "changes": {
+        "brightness_amplitude": 0.04
+      }
+    },
+    {
+      "id": "A02_BRIGHT_OFF",
+      "description": "Disable brightness; retain contrast",
+      "changes": {
+        "brightness_amplitude": 0.0
+      }
+    },
+    {
+      "id": "A03_CONTRAST_OFF",
+      "description": "Disable contrast; retain brightness",
+      "changes": {
+        "contrast_amplitude": 0.0
+      }
+    },
+    {
+      "id": "A04_GAMMA_OFF",
+      "description": "Disable gamma exponent perturbation",
+      "changes": {
+        "gamma_amplitude": 0.0
+      }
+    },
+    {
+      "id": "A05_GAMMA_HALF",
+      "description": "Gamma range .9-1.1 to .95-1.05",
+      "changes": {
+        "gamma_amplitude": 0.05
+      }
+    },
+    {
+      "id": "A06_NOISE_OFF",
+      "description": "Disable Gaussian noise",
+      "changes": {
+        "noise_sigma": 0.0
+      }
+    },
+    {
+      "id": "A07_NOISE_HALF",
+      "description": "Noise sigma .01 to .005",
+      "changes": {
+        "noise_sigma": 0.005
+      }
+    },
+    {
+      "id": "A08_PHOTO_OFF",
+      "description": "Disable all original photometric transforms",
+      "changes": {
+        "brightness_amplitude": 0.0,
+        "contrast_amplitude": 0.0,
+        "gamma_amplitude": 0.0,
+        "noise_sigma": 0.0
+      }
+    },
+    {
+      "id": "A09_BLUR_WEAK",
+      "description": "Add weak Gaussian blur sigma .3-.6 p=.15",
+      "changes": {
+        "blur_probability": 0.15
+      }
+    },
+    {
+      "id": "A10_ILLUM_GRAD",
+      "description": "Add smooth linear illumination field amplitude .04 p=.3",
+      "changes": {
+        "illumination_probability": 0.3
+      }
+    },
+    {
+      "id": "A11_BRIGHT_HALF_BLUR",
+      "description": "Predeclared brightness-half and weak-blur interaction",
+      "changes": {
+        "brightness_amplitude": 0.04,
+        "blur_probability": 0.15
+      }
+    }
+  ]
+}

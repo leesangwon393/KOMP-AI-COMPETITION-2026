@@ -1,0 +1,355 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "f9e187e0e974902db64f44a28c17db99d8442c0414f804c8f723579a2353f51c"
+  },
+  "checks": [
+    {
+      "id": "A01_CNX",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 32082827,
+      "steps": [
+        {
+          "loss": 1.1078484058380127,
+          "seg_loss": 1.1078484058380127,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8777812719345093,
+          "seg_loss": 0.8777812719345093,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "A01_CNX_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 32082827,
+      "steps": [
+        {
+          "loss": 1.1008291244506836,
+          "seg_loss": 1.1008291244506836,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8815222382545471,
+          "seg_loss": 0.8815222382545471,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "A02_OS16",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0749297142028809,
+          "seg_loss": 1.0749297142028809,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8369172811508179,
+          "seg_loss": 0.8369172811508179,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "A02_OS16_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0736057758331299,
+          "seg_loss": 1.0736057758331299,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8481153845787048,
+          "seg_loss": 0.8481153845787048,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "A03_R50",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 32619051,
+      "steps": [
+        {
+          "loss": 1.0915085077285767,
+          "seg_loss": 1.0915085077285767,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.7579178810119629,
+          "seg_loss": 0.7579178810119629,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "A03_R50_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 32619051,
+      "steps": [
+        {
+          "loss": 1.0900623798370361,
+          "seg_loss": 1.0900623798370361,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.7652268409729004,
+          "seg_loss": 0.7652268409729004,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.827519416809082,
+          "seg_loss": 0.827519416809082,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8404282927513123,
+          "seg_loss": 0.8404282927513123,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "R01",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51545643,
+      "steps": [
+        {
+          "loss": 1.09466552734375,
+          "seg_loss": 1.09466552734375,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8690736293792725,
+          "seg_loss": 0.8690736293792725,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R01_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51545643,
+      "steps": [
+        {
+          "loss": 1.0870118141174316,
+          "seg_loss": 1.0870118141174316,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8654028177261353,
+          "seg_loss": 0.8654028177261353,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51614588,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8275189995765686,
+          "seg_loss": 0.8275189995765686,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R02_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51614588,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8404257893562317,
+          "seg_loss": 0.8404257893562317,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611779,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8275196552276611,
+          "seg_loss": 0.8275196552276611,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R03_D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611779,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8404262661933899,
+          "seg_loss": 0.8404262661933899,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

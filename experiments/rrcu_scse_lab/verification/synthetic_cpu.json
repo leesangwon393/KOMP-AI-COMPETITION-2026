@@ -1,0 +1,115 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "f026eb6cfc477e4202d80ec9dff7cfc51303f92322c9a5d49ef978d7e5c32720"
+  },
+  "checks": [
+    {
+      "id": "B",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.827519416809082,
+          "seg_loss": 0.827519416809082,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R01",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51545643,
+      "steps": [
+        {
+          "loss": 1.09466552734375,
+          "seg_loss": 1.09466552734375,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8690736293792725,
+          "seg_loss": 0.8690736293792725,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51614588,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8275189995765686,
+          "seg_loss": 0.8275189995765686,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "R03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611779,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8275196552276611,
+          "seg_loss": 0.8275196552276611,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

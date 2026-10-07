@@ -1,0 +1,18 @@
+test_contact_does_not_wrap_or_weight_background (test_controls.ControlTest) ... ok
+test_declared_system_changes_compare_but_budget_changes_do_not (test_controls.ControlTest) ... ok
+test_deep_supervision_is_normalized_and_has_side_gradient (test_controls.ControlTest) ... ok
+test_sampling_is_independent_of_global_model_rng_and_resumable (test_controls.ControlTest) ... ok
+test_seed_summary_uses_selected_reference (test_controls.ControlTest) ... ok
+test_stage_controls_and_config_protection (test_controls.ControlTest) ... ok
+test_interrupted_run_matches_uninterrupted_with_recurrent_gate_contact (test_resume.ResumeTest) ... ok
+test_real_tiling_exports_checkpoint_evaluation_and_comparison (test_resume.ResumeTest) ... ok
+test_backbone_adapters_match_existing_decoder_scales (test_rsu.RSUTest) ... ok
+test_full_no_attention_matches_upstream_probabilities (test_rsu.RSUTest) ... ok
+test_full_side_supervision_only_changes_loss_not_initial_output (test_rsu.RSUTest) ... ok
+test_scse_ablation_and_contact_keep_common_initialization (test_rsu.RSUTest) ... ok
+test_upstream_blocks_preserve_odd_rectangular_shapes_and_backpropagate (test_rsu.RSUTest) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 13.701s
+
+OK

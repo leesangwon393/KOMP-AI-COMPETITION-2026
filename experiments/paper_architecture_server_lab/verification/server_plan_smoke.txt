@@ -1,0 +1,24 @@
+{"seed": 42, "experiments": 2, "epoch_budget": 2, "output": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42"}
+{"starting": "B", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42/logs/B.log"}
+{"starting": "M_CONNECTIVITY", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42/logs/M_CONNECTIVITY.log"}
+{"compared_runs": 2, "rows": 4, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/comparisons/seed42/comparison.csv"}
+{"seed": 43, "experiments": 2, "epoch_budget": 2, "output": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed43"}
+{"starting": "B", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed43/logs/B.log"}
+{"starting": "M_CONNECTIVITY", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed43/logs/M_CONNECTIVITY.log"}
+{"compared_runs": 2, "rows": 4, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/comparisons/seed43/comparison.csv"}
+{"rows": 4, "missing_or_failed_runs": 0, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/leaderboard.csv"}
+{"seed": 42, "experiments": 2, "epoch_budget": 2, "output": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42"}
+{"skipped_completed": "B"}
+{"skipped_completed": "M_CONNECTIVITY"}
+{"compared_runs": 2, "rows": 4, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/comparisons/seed42/comparison.csv"}
+{"seed": 43, "experiments": 2, "epoch_budget": 2, "output": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed43"}
+{"skipped_completed": "B"}
+{"skipped_completed": "M_CONNECTIVITY"}
+{"compared_runs": 2, "rows": 4, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/comparisons/seed43/comparison.csv"}
+{"rows": 4, "missing_or_failed_runs": 0, "table": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/leaderboard.csv"}
+{"skipped_completed": "B"}
+{"starting": "M_SNAKE", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42/logs/M_SNAKE.log"}
+{"skipped_completed": "M_CONNECTIVITY"}
+{"skipped_completed": "B"}
+{"starting": "M_SNAKE", "log": "/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/komap_paper_final_plan_oyic7m82/runs/seed42/logs/M_SNAKE.log"}
+{"skipped_completed": "M_CONNECTIVITY"}

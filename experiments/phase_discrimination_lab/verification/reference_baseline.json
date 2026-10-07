@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "pretrained": false,
+  "seed": 42,
+  "common_state_tensors": 718,
+  "all_state_tensors_equal": true,
+  "inference_logits_exact": true,
+  "input_shape": [
+    1,
+    1,
+    64,
+    64
+  ],
+  "reference_parameters": 51611179,
+  "state_sha256": "1f83f29895a4a441a306e944770f7ebbd6a6a361a4e1342fb4f2e638a7126979",
+  "torch": "2.8.0",
+  "note": "Same local CPU environment, baseline compatibility only; not server performance reproduction"
+}

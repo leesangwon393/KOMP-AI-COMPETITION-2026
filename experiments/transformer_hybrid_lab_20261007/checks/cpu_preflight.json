@@ -1,0 +1,130 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "3a8f264ed21bb43ee7c9592b3d706da62745b9111f6fa29b434e10f72963afe9"
+  },
+  "passed": true,
+  "size": 64,
+  "batch": 2,
+  "pretrained_download": false,
+  "actual_alloy_training": false,
+  "checks": [
+    {
+      "id": "B",
+      "passed": true,
+      "parameters": 51611179,
+      "common_weights_and_initial_eval_equal": true,
+      "initialization_and_forward_sampling_rng_preserved": true,
+      "freeze5_unfreeze6": true,
+      "zero_residual_and_second_step_upstream_gradients": true,
+      "optimizer_groups": [
+        "all"
+      ],
+      "losses": [
+        1.074557900428772,
+        0.827518880367279
+      ],
+      "training_step_seconds": [
+        3.17962425,
+        2.704950416999999
+      ],
+      "steady_step_images_per_second": 0.7393850872202515,
+      "sliding_window_validation": true,
+      "peak_cuda_reserved_bytes": null,
+      "gpu_total_bytes": null,
+      "cuda_headroom_passed": null
+    },
+    {
+      "id": "HT_BOT",
+      "passed": true,
+      "parameters": 81822117,
+      "common_weights_and_initial_eval_equal": true,
+      "initialization_and_forward_sampling_rng_preserved": true,
+      "freeze5_unfreeze6": true,
+      "zero_residual_and_second_step_upstream_gradients": true,
+      "optimizer_groups": [
+        "cnn",
+        "decoder",
+        "fusion",
+        "swin"
+      ],
+      "losses": [
+        1.074557900428772,
+        0.8275209665298462
+      ],
+      "training_step_seconds": [
+        2.9763495839999976,
+        3.5937623750000007
+      ],
+      "steady_step_images_per_second": 0.5565198227665232,
+      "sliding_window_validation": true,
+      "peak_cuda_reserved_bytes": null,
+      "gpu_total_bytes": null,
+      "cuda_headroom_passed": null
+    },
+    {
+      "id": "HT_PYR",
+      "passed": true,
+      "parameters": 82665253,
+      "common_weights_and_initial_eval_equal": true,
+      "initialization_and_forward_sampling_rng_preserved": true,
+      "freeze5_unfreeze6": true,
+      "zero_residual_and_second_step_upstream_gradients": true,
+      "optimizer_groups": [
+        "cnn",
+        "decoder",
+        "fusion",
+        "swin"
+      ],
+      "losses": [
+        1.074557900428772,
+        0.8275178670883179
+      ],
+      "training_step_seconds": [
+        3.7639634169999994,
+        2.5792337920000037
+      ],
+      "steady_step_images_per_second": 0.7754240837737897,
+      "sliding_window_validation": true,
+      "peak_cuda_reserved_bytes": null,
+      "gpu_total_bytes": null,
+      "cuda_headroom_passed": null
+    },
+    {
+      "id": "HT_DEC16",
+      "passed": true,
+      "parameters": 53256491,
+      "common_weights_and_initial_eval_equal": true,
+      "initialization_and_forward_sampling_rng_preserved": true,
+      "freeze5_unfreeze6": true,
+      "zero_residual_and_second_step_upstream_gradients": true,
+      "optimizer_groups": [
+        "all"
+      ],
+      "losses": [
+        1.074557900428772,
+        0.8275206089019775
+      ],
+      "training_step_seconds": [
+        1.4979878330000034,
+        0.9007234580000016
+      ],
+      "steady_step_images_per_second": 2.220437340935775,
+      "sliding_window_validation": true,
+      "peak_cuda_reserved_bytes": null,
+      "gpu_total_bytes": null,
+      "cuda_headroom_passed": null
+    }
+  ],
+  "full_protocol_cuda": false
+}

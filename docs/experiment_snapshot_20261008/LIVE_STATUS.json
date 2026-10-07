@@ -1,0 +1,78 @@
+{
+  "captured_at_kst": "2026-10-08T00:22:47+09:00",
+  "completed": 53,
+  "planned": 103,
+  "queues": {
+    "gpu-l4": {
+      "label": "U2 구조 seeds42/43",
+      "completed_saved": 12,
+      "planned": 32,
+      "current": [
+        {
+          "run": "seed42/U2_ECA",
+          "state": "validating",
+          "epoch": 146
+        }
+      ],
+      "live_verified": true,
+      "recovery_state": "restored",
+      "observation_at_unix": 1791386528.004784
+    },
+    "gpu-l4-2": {
+      "label": "U2 구조 seed44",
+      "completed_saved": 9,
+      "planned": 16,
+      "current": [],
+      "live_verified": false,
+      "recovery_state": "failed",
+      "observation_at_unix": null
+    },
+    "gpu-l4-aug1": {
+      "label": "R03 증강",
+      "completed_saved": 18,
+      "planned": 36,
+      "current": [
+        {
+          "run": "seed42/A02_BRIGHT_OFF",
+          "state": "training",
+          "epoch": 111
+        }
+      ],
+      "live_verified": true,
+      "recovery_state": "restored",
+      "observation_at_unix": 1791386527.4809039
+    },
+    "gpu-l4-r03-repro": {
+      "label": "T4 R03 밝기 재현",
+      "completed_saved": 5,
+      "planned": 6,
+      "current": [
+        {
+          "run": "seed44/A01_BRIGHT_HALF",
+          "state": "validating",
+          "epoch": 45
+        }
+      ],
+      "live_verified": true,
+      "recovery_state": "restored",
+      "observation_at_unix": 1791386559.815237
+    },
+    "mac": {
+      "label": "Mac 후속",
+      "completed_saved": 9,
+      "planned": 13,
+      "current": [
+        {
+          "run": "seed42/L01_DICE35",
+          "state": "training",
+          "epoch": 47,
+          "status_age_seconds": 9
+        }
+      ],
+      "live_verified": true,
+      "recovery_state": null,
+      "observation_at_unix": null
+    }
+  },
+  "note": "Snapshot at publication time; not a live dashboard. Failed recovery connection does not prove runtime termination."
+}

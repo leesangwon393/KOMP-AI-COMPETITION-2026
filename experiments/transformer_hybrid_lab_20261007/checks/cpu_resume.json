@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "3a8f264ed21bb43ee7c9592b3d706da62745b9111f6fa29b434e10f72963afe9"
+  },
+  "variant": "HT_BOT",
+  "synthetic_size": 64,
+  "initialization": "none",
+  "epochs": 6,
+  "training_epoch_steps": 13,
+  "freeze5_unfreeze6_resumed": true,
+  "model_optimizer_scheduler_rng_bitwise_equal": true,
+  "history_except_time_equal": true,
+  "completed_config_and_identity_guards": true,
+  "note": "Synthetic integration only; not full-size CUDA or actual alloy performance"
+}

@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0",
+      "timm": "1.0.22",
+      "segmentation-models-pytorch": "0.5.0",
+      "huggingface-hub": "0.36.2",
+      "safetensors": "0.7.0"
+    },
+    "code_sha256": "bef77555e25aae6b23219865593d27b01a056ac9d0a3d79e52052e32289205fb"
+  },
+  "checks": [
+    {
+      "id": "H_RESNET101_SWIN",
+      "status": "passed",
+      "synthetic_size": 64,
+      "synthetic_batch_size": 2,
+      "parameters": 86784997,
+      "steps": [
+        {
+          "loss": 1.1378133296966553,
+          "seg_loss": 1.1378133296966553,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0,
+          "deep_loss": 0.0,
+          "consistency_loss": 0.0,
+          "ocr_loss": 0.0
+        },
+        {
+          "loss": 0.8539537191390991,
+          "seg_loss": 0.8539537191390991,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0,
+          "connectivity_loss": 0.0,
+          "deep_loss": 0.0,
+          "consistency_loss": 0.0,
+          "ocr_loss": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download"
+}

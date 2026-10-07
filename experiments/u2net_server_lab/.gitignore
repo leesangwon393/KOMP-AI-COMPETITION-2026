@@ -1,0 +1,14 @@
+Data/
+runs/
+logs/
+predictions/
+evaluations/
+comparisons/
+configs_seed*/
+configs_200/
+.venv/
+.torch_cache/
+__pycache__/
+*.pyc
+*.pt
+*.zip

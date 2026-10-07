@@ -1,0 +1,96 @@
+{
+  "groups": [
+    {
+      "seed": 43,
+      "ids": [
+        "B",
+        "D03"
+      ]
+    },
+    {
+      "seed": 44,
+      "ids": [
+        "B",
+        "D03"
+      ]
+    },
+    {
+      "seed": 42,
+      "ids": [
+        "B",
+        "D03",
+        "X01_FREQ",
+        "X02_CONN",
+        "X03_PIXEL",
+        "L01_DICE35",
+        "L02_LOVASZ35",
+        "O01_LR2",
+        "O02_LR4"
+      ]
+    }
+  ],
+  "new_runs": 13,
+  "epochs_each": 150,
+  "contrasts": {
+    "D03": {
+      "aux.contact_weight": [
+        1.0,
+        2.0
+      ]
+    },
+    "X01_FREQ": {
+      "model.skip_fusion": [
+        "none",
+        "freq_nooffset"
+      ]
+    },
+    "X02_CONN": {
+      "aux.connectivity_weight": [
+        0.0,
+        0.05
+      ],
+      "model.connectivity": [
+        false,
+        true
+      ]
+    },
+    "X03_PIXEL": {
+      "model.upsampling": [
+        "bilinear",
+        "pixelshuffle"
+      ]
+    },
+    "L01_DICE35": {
+      "loss.dice_weight": [
+        0.25,
+        0.35
+      ],
+      "loss.lovasz_weight": [
+        0.25,
+        0.15000000000000002
+      ]
+    },
+    "L02_LOVASZ35": {
+      "loss.dice_weight": [
+        0.25,
+        0.15
+      ],
+      "loss.lovasz_weight": [
+        0.25,
+        0.35
+      ]
+    },
+    "O01_LR2": {
+      "train.lr": [
+        0.0003,
+        0.0002
+      ]
+    },
+    "O02_LR4": {
+      "train.lr": [
+        0.0003,
+        0.0004
+      ]
+    }
+  }
+}

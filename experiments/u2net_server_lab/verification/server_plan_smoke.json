@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "stage": "core",
+  "ids": [
+    "B",
+    "B_D03",
+    "U0",
+    "U1",
+    "U2"
+  ],
+  "seeds": [
+    42
+  ],
+  "fixture_epochs": 1,
+  "fixture_backbone": "resnet34",
+  "fixture_context": 64,
+  "fixture_target": 32,
+  "fixture_batch_size": 2,
+  "data": "synthetic fixture only",
+  "resume_completed_runs_skipped": true,
+  "checks": [
+    "sequential child processes",
+    "best/last checkpoint",
+    "single/D4 PNG exports",
+    "protocol comparison",
+    "seed summary",
+    "ablation and interaction contrasts",
+    "completed-run resume guards"
+  ],
+  "code_sha256": "94c6dae763f2fff6a9ef12736edd9b7fa7faaa70ea3603e69043edaa72e031b0",
+  "note": "Supervisor integration uses a tiny random-init ResNet34 fixture; does not measure U/RSU segmentation performance."
+}

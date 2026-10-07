@@ -1,0 +1,22 @@
+test_auxiliary_allocation_preserves_weights_rng_and_initial_logits (test_objectives.ObjectivesTest) ... ok
+test_baseline_loss_exact_and_sampling_rng_isolated (test_objectives.ObjectivesTest) ... ok
+test_contact_no_wrap_or_al_gap (test_objectives.ObjectivesTest) ... ok
+test_contact_schema (test_objectives.ObjectivesTest) ... ok
+test_contact_weighting_only_target_classes (test_objectives.ObjectivesTest) ... ok
+test_empty_contrast_is_differentiable_zero (test_objectives.ObjectivesTest) ... ok
+test_mixed_cells_not_assigned_a_false_class (test_objectives.ObjectivesTest) ... ok
+test_separated_embeddings_better_and_finite_gradients (test_objectives.ObjectivesTest) ... ok
+test_explicit_combination_adds_four_controls (test_plans.PlanTest) ... ok
+test_generation_preserves_epochs_and_protects_existing_configs (test_plans.PlanTest) ... ok
+test_seed_summary_uses_paired_differences (test_plans.PlanTest) ... ok
+test_structures_can_compare_but_loss_budget_changes_cannot (test_plans.PlanTest) ... ok
+test_interrupted_run_matches_uninterrupted_with_recurrent_gate_contact (test_resume.ResumeTest) ... ok
+test_real_tiling_exports_checkpoint_evaluation_and_comparison (test_resume.ResumeTest) ... ok
+test_common_initial_weights_rng_and_gate_identity (test_rrcu.RRCUTest) ... ok
+test_shared_recurrence_and_channel_geometry (test_rrcu.RRCUTest) ... ok
+test_training_center_and_finite_gradients (test_rrcu.RRCUTest) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 16.383s
+
+OK

@@ -1,0 +1,17 @@
+id,architecture,initialization,decoder_scse,rsu_attention,fusion_attention,deep_weight,source,implementation,description
+B,baseline,imagenet,none,none,none,0.0,R022,maintained_baseline,"Maintained ResNet101 U-Net/scSE, R022-aligned recipe"
+B_SCRATCH,baseline,none,none,none,none,0.0,R022,maintained_baseline,"R101 U-Net/scSE baseline, fresh scratch initialization"
+U2_PLAIN_DEEP,u2net,none,none,none,none,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,U²-Net without attention; six-side deep supervision
+U2_SCSE_ALL_DEEP,u2net,none,all,none,none,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,scSE after all five decoder RSUs; six-side deep supervision
+U2_SCSE_LAST2_DEEP,u2net,none,last2,none,none,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,scSE after stage2d/stage1d only; six-side deep supervision
+U2_ECA_DEEP,u2net,none,none,eca,none,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,ECA on final residual branch inside all 11 outer RSUs; six-side deep supervision
+U2_CBAM_DEEP,u2net,none,none,none,cbam,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,CBAM on six side-head feature maps before prediction/fusion; six-side deep supervision
+U2_ECA_CBAM_DEEP,u2net,none,none,eca,cbam,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,RSU residual-branch ECA + six pre-fusion CBAM gates; six-side deep supervision
+U2_ECA_SCSE_DEEP,u2net,none,all,eca,none,0.2,U2NET/scSE/ECA/CBAM,derived_attention_ablation,RSU residual-branch ECA + five decoder scSE gates; six-side deep supervision
+U2_PLAIN,u2net,none,none,none,none,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,U²-Net without attention; fused loss only
+U2_SCSE_ALL,u2net,none,all,none,none,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,scSE after all five decoder RSUs; fused loss only
+U2_SCSE_LAST2,u2net,none,last2,none,none,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,scSE after stage2d/stage1d only; fused loss only
+U2_ECA,u2net,none,none,eca,none,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,ECA on final residual branch inside all 11 outer RSUs; fused loss only
+U2_CBAM,u2net,none,none,none,cbam,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,CBAM on six side-head feature maps before prediction/fusion; fused loss only
+U2_ECA_CBAM,u2net,none,none,eca,cbam,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,RSU residual-branch ECA + six pre-fusion CBAM gates; fused loss only
+U2_ECA_SCSE,u2net,none,all,eca,none,0.0,U2NET/scSE/ECA/CBAM,derived_attention_ablation,RSU residual-branch ECA + five decoder scSE gates; fused loss only

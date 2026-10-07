@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "code_sha256": "bef77555e25aae6b23219865593d27b01a056ac9d0a3d79e52052e32289205fb",
+  "reference": "followup_unet_lab/komap_phase/models.py",
+  "packaged_reference": "komap_phase/baseline_models.py",
+  "source_sha256": "70d90ea6ef305f94ee3a6a6e23ebf7281f8b0b89f240e3ffa65d0f32d629ec4a",
+  "initialization_output_identity_unit_test": "test_baseline_parameters_outputs_and_rng_equal_reference",
+  "sampling_stream_change": "private CPU generator seed+8101 in new training harness"
+}

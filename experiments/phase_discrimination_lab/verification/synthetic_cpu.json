@@ -1,0 +1,143 @@
+{
+  "environment": {
+    "python": "3.9.6",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "cuda_build": null,
+    "device": "cpu",
+    "gpu": null,
+    "dependencies": {
+      "numpy": "1.26.4",
+      "Pillow": "11.3.0"
+    },
+    "code_sha256": "0afd7074ffae15dc3116944935763a316ae448f66ddb3f64dcc57d95ae26f148"
+  },
+  "checks": [
+    {
+      "id": "B",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.827519416809082,
+          "seg_loss": 0.827519416809082,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "D01",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51634091,
+      "steps": [
+        {
+          "loss": 1.3385818004608154,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 5.280478477478027,
+          "contrast_lambda": 0.05,
+          "contrast_points": 384,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 1.0775818824768066,
+          "seg_loss": 0.8263894319534302,
+          "contrast_loss": 5.023849964141846,
+          "contrast_lambda": 0.05,
+          "contrast_points": 384,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "D02",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51637612,
+      "steps": [
+        {
+          "loss": 1.074557900428772,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 0.8275044560432434,
+          "seg_loss": 0.8275044560432434,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "id": "D03",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51611179,
+      "steps": [
+        {
+          "loss": 1.0731678009033203,
+          "seg_loss": 1.0731678009033203,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        },
+        {
+          "loss": 0.8404282927513123,
+          "seg_loss": 0.8404282927513123,
+          "contrast_loss": 0.0,
+          "contrast_lambda": 0.0,
+          "contrast_points": 0,
+          "contact_fraction": 0.09375
+        }
+      ]
+    },
+    {
+      "id": "D04",
+      "status": "passed",
+      "synthetic_size": 64,
+      "parameters": 51660524,
+      "steps": [
+        {
+          "loss": 1.3385818004608154,
+          "seg_loss": 1.074557900428772,
+          "contrast_loss": 5.280478477478027,
+          "contrast_lambda": 0.05,
+          "contrast_points": 384,
+          "contact_fraction": 0.0
+        },
+        {
+          "loss": 1.0775651931762695,
+          "seg_loss": 0.8263741731643677,
+          "contrast_loss": 5.0238189697265625,
+          "contrast_lambda": 0.05,
+          "contrast_points": 384,
+          "contact_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "note": "Synthetic forward/backward and optimizer only; no real-data training, no weight download",
+  "dataset_counts": {
+    "train": 70,
+    "valid": 20
+  }
+}

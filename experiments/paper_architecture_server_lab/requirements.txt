@@ -1,0 +1,7 @@
+numpy==1.26.4
+Pillow==11.2.1
+timm==1.0.22
+segmentation-models-pytorch==0.5.0
+huggingface-hub==0.35.3
+safetensors==0.6.2
+tqdm==4.67.1

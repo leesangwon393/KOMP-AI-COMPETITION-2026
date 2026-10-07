@@ -1,0 +1,28 @@
+{
+  "snapshot_date": "2026-10-04",
+  "upstream_repository": "https://github.com/xuebinqin/U-2-Net",
+  "paper": "https://arxiv.org/abs/2005.09007",
+  "vendor_source": "https://raw.githubusercontent.com/xuebinqin/U-2-Net/master/model/u2net.py",
+  "license_source": "https://raw.githubusercontent.com/xuebinqin/U-2-Net/master/LICENSE",
+  "vendor_modified": false,
+  "files": {
+    "vendor": {
+      "path": "komap_phase/vendor_u2net.py",
+      "bytes": 14719,
+      "sha256": "96dd7a19c7de4f13520ccfc1075ded3350ff4946493be3561b9918a46218f415"
+    },
+    "license": {
+      "path": "LICENSE_U2NET.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    }
+  },
+  "adaptation_files": [
+    "komap_phase/rsu_models.py",
+    "komap_phase/models.py",
+    "komap_phase/objectives.py",
+    "komap_phase/data.py",
+    "komap_phase/training.py"
+  ],
+  "note": "Snapshot from upstream master; file hashes identify exact vendored bytes. No upstream trained weights included."
+}

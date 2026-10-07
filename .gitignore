@@ -10,3 +10,7 @@ __pycache__/
 *.pth
 *.zip
 .DS_Store
+
+# Runtime logs and small source-only handoff archives
+*.log
+!releases/KoMaP_UNet_Transformer_Code_*.zip

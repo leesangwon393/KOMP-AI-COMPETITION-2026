@@ -1,0 +1,17 @@
+{
+  "code_sha256": "49cb5393ee944552840291757fb56d8da63ad0a41cea82460ac536337688614d",
+  "passed": true,
+  "device": "cpu",
+  "synthetic_fixture": true,
+  "fresh_runs": 4,
+  "seeds": [
+    43,
+    44
+  ],
+  "epochs_per_run": 1,
+  "resume_completed_runs_skipped": true,
+  "best_checkpoint_sha256_before_after_equal": true,
+  "training_on_komap_data": false,
+  "stdout_fresh": "{\"seed\": 43, \"experiments\": 2, \"epoch_budget\": 2, \"output\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed43\"}\n{\"starting\": \"B\", \"log\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed43/logs/B.log\"}\n{\"starting\": \"U2_SCSE_ALL_DEEP\", \"log\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed43/logs/U2_SCSE_ALL_DEEP.log\"}\n{\"compared_runs\": 2, \"rows\": 4, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/comparisons/seed43/comparison.csv\"}\n{\"seed\": 44, \"experiments\": 2, \"epoch_budget\": 2, \"output\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed44\"}\n{\"starting\": \"B\", \"log\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed44/logs/B.log\"}\n{\"starting\": \"U2_SCSE_ALL_DEEP\", \"log\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed44/logs/U2_SCSE_ALL_DEEP.log\"}\n{\"compared_runs\": 2, \"rows\": 4, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/comparisons/seed44/comparison.csv\"}\n{\"rows\": 4, \"missing_or_failed_runs\": 0, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/leaderboard.csv\"}\n",
+  "stdout_resume": "{\"seed\": 43, \"experiments\": 2, \"epoch_budget\": 2, \"output\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed43\"}\n{\"skipped_completed\": \"B\"}\n{\"skipped_completed\": \"U2_SCSE_ALL_DEEP\"}\n{\"compared_runs\": 2, \"rows\": 4, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/comparisons/seed43/comparison.csv\"}\n{\"seed\": 44, \"experiments\": 2, \"epoch_budget\": 2, \"output\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/seed44\"}\n{\"skipped_completed\": \"B\"}\n{\"skipped_completed\": \"U2_SCSE_ALL_DEEP\"}\n{\"compared_runs\": 2, \"rows\": 4, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/comparisons/seed44/comparison.csv\"}\n{\"rows\": 4, \"missing_or_failed_runs\": 0, \"table\": \"/private/var/folders/rm/h13d9x1j3dq0kphkw76x_1t80000gn/T/u2_scse_supervisor_zfnbvkzk/plan/leaderboard.csv\"}\n"
+}

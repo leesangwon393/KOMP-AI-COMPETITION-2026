@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "code_sha256": "bef77555e25aae6b23219865593d27b01a056ac9d0a3d79e52052e32289205fb",
+  "weights": [
+    {
+      "kind": "imagenet-micronet",
+      "url": "https://nasa-public-data.s3.amazonaws.com/microscopy_segmentation_models/resnet101_pretrained_imagenet-microscopynet_v1.0.pth.tar",
+      "sha256": "0605b4e092aadeb224979e38cece2aea701238a8682b78d152ba47a28325d963",
+      "version": "1.0",
+      "normalization": "fixed ImageNet"
+    },
+    {
+      "kind": "micronet",
+      "url": "https://nasa-public-data.s3.amazonaws.com/microscopy_segmentation_models/resnet101_pretrained_microscopynet_v1.0.pth.tar",
+      "sha256": "f84c617fbe88d3c445916c1f3556b5312062efec5bfe75ba2ceeb81821258a1e",
+      "version": "1.0",
+      "normalization": "fixed ImageNet"
+    }
+  ],
+  "both_initializations_strictly_loaded": true
+}
